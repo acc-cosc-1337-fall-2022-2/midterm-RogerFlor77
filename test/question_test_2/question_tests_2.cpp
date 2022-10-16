@@ -10,3 +10,8 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE("Test function transcribe_dna_into_rna") 
+{
+	REQUIRE(transcribe_dna_into_rna("GATGGAACTTGACTACGTAAATT") == ("GAUGGAACUUGACUACGUAAAUU"));
+}

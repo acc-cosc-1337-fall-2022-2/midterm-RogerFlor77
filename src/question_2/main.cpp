@@ -11,7 +11,7 @@ int main()
     int cookies;
     string again_option;
     
-cout << "Please enter a the DNA string: ";
+cout << "Please enter the DNA string: ";
 
         cin >> word1;
 

@@ -12,7 +12,7 @@ int main()
     int cookies;
     string again_option;
     
-    cout << "Pleas enter the first DNA string: ";
+    cout << "Please enter the first DNA string: ";
 
     cin >> word1;
 
@@ -23,6 +23,6 @@ int main()
     cout << "The distance is: " << get_dna_p_distance(word1, word2) << "\n";
 
     cout << "This program has now ended, thank you!\n";
-    
+
     return 0;
 }
